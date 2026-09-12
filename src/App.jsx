@@ -11,6 +11,11 @@ function App() {
   return (
     <main className="marks-sheet">
       <Home />
+      <div className="section-heading">
+        <span>Learning snapshot</span>
+        <span className="section-line" />
+        <small>6 quick examples</small>
+      </div>
       <div className="examples">
         <ArrayExample />
         <ArrayofObj />
